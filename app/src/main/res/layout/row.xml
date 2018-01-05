@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+    >
+
+    <TextView
+        android:id="@+id/tvIdentiteAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/grey"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:text="Nom"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvEmailAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvIdentiteAdapter"
+        android:background="@color/grey"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:text="email"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/tvDateAdapter"
+        android:layout_width="108dp"
+        android:background="@color/grey"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:gravity="center"
+        android:text="00-00-0000"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
